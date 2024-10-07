@@ -1,0 +1,56 @@
+.sidebar{
+    width:250px;
+    height:100vh;
+    background-color: blueviolet;
+    color: white;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.sidebar.closed{
+    width:120px;
+}
+.sidebar-header{
+    display:flex;
+    align-items:center;
+    background-color:rgb(33, 33, 65);
+    padding:10px;
+
+}
+.toggle-button{
+    cursor:pointer;
+    background:none;
+    border:none;
+    display:flex;
+    align-items: center;
+    padding:5px;
+    color:white;
+}
+.toggle-button .arrow{
+    width:0;
+    height:0;
+    border-style: solid;
+}
+.toggle-button .left{
+border-width:8px 10px 8px 0;
+border-color:transparent white transparent transparent;
+}
+.toggle-button .right{
+    border-width:8px 0 8px 10px;
+    border-color:transparent  transparent transparent white;
+}
+.nav-menu{
+    list-style-type: none;
+    padding:0;
+}
+li{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    text-align:center;
+}
+.logo h2{
+    font-size:18px;
+    margin:5px;
+}
